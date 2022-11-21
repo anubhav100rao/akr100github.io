@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T18:12:35.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="MgvfOaLvm1OgS65L9hEk" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-21T18:15:29.747Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="yCpMvx603NUbZpN_fhaN" version="20.3.6" type="github">
   <diagram id="rxHPAxPZkkmusATUO-no" name="Page-1">
     <mxGraphModel dx="1038" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -23,13 +23,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7T2O_6Qfva8UN1nSJMez-9" value="Sensor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7T2O_6Qfva8UN1nSJMez-9" value="Sensor Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="125" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7T2O_6Qfva8UN1nSJMez-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7T2O_6Qfva8UN1nSJMez-10" target="7T2O_6Qfva8UN1nSJMez-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7T2O_6Qfva8UN1nSJMez-10" value="Camera" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7T2O_6Qfva8UN1nSJMez-10" value="Camera Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7T2O_6Qfva8UN1nSJMez-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7T2O_6Qfva8UN1nSJMez-11">
@@ -51,13 +51,18 @@
           <mxGeometry x="365" y="210" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7T2O_6Qfva8UN1nSJMez-16" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="460" y="215" width="40" height="30" as="geometry" />
+          <mxGeometry x="460" y="225" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7T2O_6Qfva8UN1nSJMez-18" value="YES&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="410" y="310" width="50" height="30" as="geometry" />
+        <mxCell id="7T2O_6Qfva8UN1nSJMez-18" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7T2O_6Qfva8UN1nSJMez-20" value="Traffic Sign" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="190" y="225" width="80" height="30" as="geometry" />
+        <mxCell id="7T2O_6Qfva8UN1nSJMez-20" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="225" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7T2O_6Qfva8UN1nSJMez-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7T2O_6Qfva8UN1nSJMez-21" target="7T2O_6Qfva8UN1nSJMez-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="530" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7T2O_6Qfva8UN1nSJMez-21" value="Traffic Signs Detection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="410" width="120" height="60" as="geometry" />
@@ -85,7 +90,7 @@
         <mxCell id="7T2O_6Qfva8UN1nSJMez-30" value="If no path exist or time to stop" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="580" width="125" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7T2O_6Qfva8UN1nSJMez-32" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7T2O_6Qfva8UN1nSJMez-32" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="570" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7T2O_6Qfva8UN1nSJMez-35" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="7T2O_6Qfva8UN1nSJMez-25">
